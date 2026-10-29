@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+# makepkg
+/src/
+/pkg/
+*.pkg.tar.*
+
+# never commit the vendor software or what was extracted from it
+*.exe
+*.zip
+/installer/
+
+# personal mouse data (dumps, backups)
+dump_*.txt
+*.bin
+effect_map.txt

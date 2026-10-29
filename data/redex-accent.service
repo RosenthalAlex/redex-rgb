@@ -1,0 +1,12 @@
+[Unit]
+Description=Redex: mouse LEDs follow the GNOME accent color
+PartOf=graphical-session.target
+After=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/redex --background
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=graphical-session.target

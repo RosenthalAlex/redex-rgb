@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Redex RGB
+GenericName=Mouse lighting
+GenericName[hu]=Egérvilágítás
+Comment=Set the LEDs of the Trust GXT 926 Redex II mouse
+Comment[hu]=A Trust GXT 926 Redex II egér LED-jeinek beállítása
+Exec=redex
+Icon=input-mouse
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=mouse;rgb;led;trust;redex;egér;
+StartupWMClass=io.github.redex.Control

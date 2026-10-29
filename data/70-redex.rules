@@ -1,0 +1,4 @@
+# Trust GXT 926 Redex II wireless dongle (145F:0320): let the logged-in user use its
+# hidraw nodes, so `redex` works without sudo. Installed by the redex-rgb package to
+# /usr/lib/udev/rules.d/.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="145f", ATTRS{idProduct}=="0320", TAG+="uaccess"
